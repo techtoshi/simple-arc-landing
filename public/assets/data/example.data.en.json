@@ -1,0 +1,136 @@
+{
+  "tokenName": "quark",
+
+  "header": {
+    "logoImg": "./assets/img/logo.png"
+  },
+
+  "hero": {
+    "slogan": "The Native Bitcoin Meme",
+    "briefIntro": "Quark has the largest number of on-chain holders and is a groundbreaking and important project in the Atomicals ecosystem.",
+    "heroImg": "./assets/img/colorCoin.png",
+    "infos": [
+      { "title": "supply", "data": "10B" },
+      { "title": "holders", "data": "22k+" }
+    ]
+  },
+
+  "features": [
+    {
+      "title": "Atomicals",
+      "text": "Atomicals is an outstanding protocol, with Quark being one of its representative tokens."
+    },
+    {
+      "title": "22K+ Holders",
+      "text": "Quark has a robust community of nearly 22K+ holders."
+    },
+    {
+      "title": "Colored Coins",
+      "text": "Colored coins represent the trend of token issuance within the Bitcoin ecosystem."
+    },
+    {
+      "title": "Physics Meme",
+      "text": "It's iconic in Atomicals Protocol narratives, akin to a physics meme."
+    }
+  ],
+
+  "atomicals": {
+    "testimonials": [
+      {
+        "img": "./assets/img/testimonial/atomicals-protocol.jpg",
+        "name": "Atomicals Protocol",
+        "account": "atomicalsxyz",
+        "link": "https://twitter.com/atomicalsxyz",
+        "text": "Atomicals are the world's first Bitcoin Overlay Protocol on #Bitcoin backed by the native fungible Satoshi and UTXO model. Mr. Hal Finney made this prescient post from 2010 to say this which is the entire basis of #Atomicals Protocol Theory. The #ARC20 token standard is the ultimate solution of the Bitcoin Colored Coins experiments of the past decade."
+      },
+      {
+        "img": "./assets/img/testimonial/okx.jpg",
+        "name": "OKX",
+        "account": "okx",
+        "link": "https://twitter.com/atomicalsxyz",
+        "text": "ARC-20 introduces a fungible token standard to the Bitcoin blockchain, using satoshis — the smallest units of Bitcoin — as the backbone for token representation. This means each ARC-20 token is inherently backed by a satoshi, making sure a baseline value and integrating seamlessly with existing Bitcoin infrastructure."
+      },
+      {
+        "img": "./assets/img/testimonial/shako.jpg",
+        "name": "Shako",
+        "account": "shak0sama",
+        "link": "https://x.com/shak0sama",
+        "text": "The Atomicals protocol is a feature rich, Layer 1 (L1) protocol that aims to shape the future of DeFi and programmable digital objects on Bitcoin. This infographic aims to simplify the core features of the Atomicals Protocol⚛️"
+      }
+    ]
+  },
+
+  "ecosystem": {
+    "supports": [
+      {
+        "title": "Wallets",
+        "subtitle": "manage your arc-20 assets.",
+        "items": [
+          {
+            "logo": "./assets/img/wallets/wizz-wallet.jpg",
+            "name": "Wizz",
+            "link": "https://wizzwallet.io/"
+          },
+          {
+            "logo": "./assets/img/wallets/unisat-wallet.jpg",
+            "name": "Unisat",
+            "link": "https://unisat.io/"
+          },
+          {
+            "logo": "./assets/img/wallets/okx-wallet.png",
+            "name": "OKX",
+            "link": "https://www.okx.com/web3"
+          },
+          {
+            "logo": "./assets/img/wallets/binance-wallet.jpg",
+            "name": "Binance",
+            "link": "https://www.binance.com/en/web3wallet"
+          },
+          {
+            "logo": "./assets/img/wallets/gate-wallet.jpg",
+            "name": "Gate",
+            "link": "https://www.gate.io/web3"
+          }
+        ]
+      },
+      {
+        "title": "Markets",
+        "subtitle": "trading arc-20 tokens.",
+        "items": [
+          {
+            "logo": "./assets/img/market/bitatom-market.jpg",
+            "name": "Bitatom",
+            "link": "https://bitatom.io/token/quark"
+          },
+          {
+            "logo": "./assets/img/market/atomicals-market.jpg",
+            "name": "Atomicals Market",
+            "link": "https://atomicalmarket.com/market/token/quark"
+          },
+          {
+            "logo": "./assets/img/market/okx-market.png",
+            "name": "OKX",
+            "link": "https://www.okx.com/zh-hans/web3/marketplace/inscription/atomicals/token/quark"
+          },
+          {
+            "logo": "./assets/img/market/binance-market.jpg",
+            "name": "Binance",
+            "link": "https://www.binance.com/zh-CN/web3wallet"
+          },
+          {
+            "logo": "./assets/img/market/dotswap-market.jpg",
+            "name": "DotSwap",
+            "link": "https://www.dotswap.app/swap#A_BTC_quark"
+          }
+        ]
+      }
+    ]
+  },
+
+  "footer": {
+    "contacts": {
+      "telegram": "https://t.me/QUARK_ARC20",
+      "twitter": "https://twitter.com/ARC20_QUARK"
+    }
+  }
+}
