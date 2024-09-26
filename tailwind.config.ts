@@ -20,11 +20,6 @@ export default {
           '900': '#043876',
           '950': '#010d1d',
         },
-
-      },
-      backgroundImage: {
-        'atomicals': "url('./assets/img/atomicals-with-logo.jpg')",
-        'starry-sky': "url('./assets/img/hero-section-bg.jpg')",
       },
       animation: {
         'pulse': 'pulse .8s linear infinite',

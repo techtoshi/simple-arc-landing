@@ -12,7 +12,8 @@ const Atomicals = ({
     <>
       <section
         id='atomicals'
-        className='md:bg-atomicals md:bg-center md:bg-cover'
+        className='bg md:bg-center md:bg-cover'
+        style={{ backgroundImage: 'url("assets/img/atomicals-with-logo.jpg")' }}
       >
         {/*  */}
         <div className='bg-gradient-to-b from-black via-transparent to-black'>

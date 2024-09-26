@@ -18,7 +18,10 @@ const Header = ({
 
   return (
     <>
-      <header className='h-14 mx-auto px-2 flex items-center sticky top-0 font font-mono bg-starry-sky bg-cover md:h-20 md:px-6'>
+      <header
+        className='h-14 mx-auto px-2 flex items-center sticky top-0 font font-mono bg-cover md:h-20 md:px-6'
+        style={{ backgroundImage: 'url("assets/img/hero-section-bg.jpg")' }}
+      >
         <div className='w-full flex justify-between items-center'>
           <Logo logoImg={logoImg} tokenName={tokenName} />
 

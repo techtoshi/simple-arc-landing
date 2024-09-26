@@ -13,7 +13,8 @@ const Hero = ({
     <>
       <section
         id='hero'
-        className='mx-auto pt-10 bg-starry-sky bg-center bg-cover md:pt-20'
+        className='mx-auto pt-10 bg-center bg-cover md:pt-20'
+        style={{ backgroundImage: 'url("assets/img/hero-section-bg.jpg")' }}
       >
         <div className='flex flex-col-reverse items-center font-mono bg-gradient-to-b from-transparent to-black md:flex-row'>
           {/* hero image */}
