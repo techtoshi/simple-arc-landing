@@ -12,7 +12,7 @@ const Atomicals = ({
     <>
       <section
         id='atomicals'
-        className='bg md:bg-center md:bg-cover'
+        className='bg-right bg-no-repeat md:bg-center md:bg-cover'
         style={{ backgroundImage: 'url("assets/img/atomicals-with-logo.jpg")' }}
       >
         {/*  */}
