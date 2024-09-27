@@ -1,4 +1,7 @@
+import { useContext } from 'react'
+
 import { HeroType } from '../../lib/definitions'
+import { DeviceTypeContext } from '../../lib/DeviceContext'
 
 import Info from './Info'
 
@@ -9,6 +12,7 @@ const Hero = ({
   tokenName: string
   hero: HeroType
 }) => {
+  const isMobile = useContext(DeviceTypeContext)
   return (
     <>
       <section
@@ -42,8 +46,9 @@ const Hero = ({
             {/* buy token btn */}
             <div className='pt-5'>
               <a
-                href='#market'
-                className='inline-block py-2 px-4 text-lg font-bold tracking-widest uppercase rounded-xl bg-atomicals-400 md:py-3 md:px-6 md:text-xl lg:text-2xl hover:animate-pulse'
+                href='#markets'
+                className={`inline-block py-2 px-4 text-lg font-bold tracking-widest uppercase rounded-xl bg-atomicals-400 md:py-3 md:px-6 md:text-xl lg:text-2xl active:translate-y-1 active:bg-atomicals-500
+                ${!isMobile && 'hover:animate-pulse'}`}
               >
                 buy {tokenName}
               </a>

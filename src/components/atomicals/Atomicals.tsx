@@ -1,4 +1,7 @@
+import { useContext } from 'react'
+import { DeviceTypeContext } from '../../lib/DeviceContext'
 import { TestimonialType } from '../../lib/definitions'
+
 import Testimonials from './Testimonials'
 
 const img = './assets/img/atomicals-protocol.jpg'
@@ -8,6 +11,8 @@ const Atomicals = ({
 }: {
   atomicals: { testimonials: TestimonialType[] }
 }) => {
+  const isMobile = useContext(DeviceTypeContext)
+
   return (
     <>
       <section
@@ -47,14 +52,22 @@ const Atomicals = ({
               <a
                 href='https://atomicals-community.github.io/atomicals-guide/'
                 target='_blank'
-                className='py-3 px-6 rounded-lg text-lg font-bold text-atomicals-950 bg-white md:text-xl transition hover:bg-gray-200 hover:-translate-y-2 hover:scale-105'
+                className={`py-3 px-6 rounded-lg text-lg font-bold text-atomicals-950 bg-white md:text-xl transition active:translate-y-1 active:bg-gray-300
+                ${
+                  !isMobile &&
+                  'hover:bg-gray-200 hover:-translate-y-2 hover:scale-105'
+                }`}
               >
                 Atomicals Guide &#10141;
               </a>
               <a
                 href='https://www.atomicals.space/'
                 target='_blank'
-                className='py-3 px-6 rounded-lg text-lg font-bold text-atomicals-950 bg-atomicals-100 md:text-xl transition hover:bg-atomicals-200 hover:-translate-y-2 hover:scale-105'
+                className={`py-3 px-6 rounded-lg text-lg font-bold text-atomicals-950 bg-atomicals-200 md:text-xl transition active:translate-y-1 active:bg-atomicals-400
+                ${
+                  !isMobile &&
+                  'hover:bg-atomicals-300 hover:-translate-y-2 hover:scale-105'
+                }`}
               >
                 Atomicals Space &#10141;
               </a>

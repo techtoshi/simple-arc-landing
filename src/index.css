@@ -7,7 +7,7 @@ section h2 {
 }
 
 nav li {
-  @apply border-b-2 border-transparent transition hover:scale-110 hover:text-atomicals-200 hover:border-atomicals-50;
+  @apply border-b-2 border-transparent transition hover:scale-110 hover:text-atomicals-200 hover:border-atomicals-50 md:active:translate-y-1;
 }
 
 .btn {
